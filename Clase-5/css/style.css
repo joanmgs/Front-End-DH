@@ -2,7 +2,6 @@ body {
     font-family: Calibri, Arial, Arial, Helvetica, sans-serif;
     margin: 0;
 }
-/* puedo simplificar el hexadecimal colocando los tres primeros igual, el entenderá que los tres que siguen serán iguales*/
 header {
     background-color: #ddd;
     line-height: 2;
@@ -11,16 +10,17 @@ header {
 .profile-pic {
     height: 170px;
 }
-h1, h2 {
+h1, 
+h2 {
     background-color: #bfbfbf;
 }
 h1 {
     color: #1f5183;
 }
 main {
+    line-height: 1.4;
     margin: 50px auto;
     max-width: 800px;
-    line-height: 1.4;
 }
 section {
     margin-top: 30px;
@@ -28,16 +28,17 @@ section {
 h2 {
     color: #533638;
 }
-.label-data, .label-years {
+.label-data, 
+.label-years {
     font-style: italic;
     font-weight: bold;
 }
 footer {
     background-color: #1f487c;
-    text-align: center;
-    line-height: 2;
     color: #ddd;
     font-size: 1.2em;
+    line-height: 2;
+    text-align: center;
 }
 .img-link {
     height: 20px;
